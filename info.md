@@ -182,4 +182,30 @@ Ends the body and the HTML document.
     </footer>
     ```
 
+### Without `&nbsp;`:
+
+```html
+<table border="1">
+  <tr>
+    <td>Content here</td>
+    <td></td> <!-- This cell is empty -->
+    <td>More content</td>
+  </tr>
+</table>
+```
+
+In this example, depending on the browser and styles applied, the second cell might not render properly, and its borders could collapse because it's empty. 
+
+### With `&nbsp;`:
+
+```html
+<table border="1">
+  <tr>
+    <td>Content here</td>
+    <td>&nbsp;</td> <!-- This cell has a non-breaking space -->
+    <td>More content</td>
+  </tr>
+</table>
+```
+
 
