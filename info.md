@@ -1,10 +1,9 @@
-    
-html:    hyperText - using hyperlink to move to the next page 
+# HTML    hyperText - using hyperlink to move to the next page 
          Markup Language - it use tages to define elenmnts 
 
 # HTML Docs
 
-<!doctype html> //show that this code have version html5 
+- `<!doctype html> //show that this code have version html5 
 <html lang="en-US"> //show languages 
   <head>
     <meta charset="utf-8" /> // data about data means meta data charset means encoding for webpage and here utf 8 means converts into machine code by 8 bit 
@@ -14,9 +13,9 @@ html:    hyperText - using hyperlink to move to the next page
   <body>// body of the code
     <img src="images/firefox-icon.png" alt="My test image" />
   </body>
-</html>
+  </html>`
 
-
+ 
 #  HTML tags commonly 
 
 1. **Document Structure**
