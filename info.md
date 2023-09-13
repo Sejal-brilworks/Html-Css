@@ -3,19 +3,71 @@
 
 # HTML Docs
 
-- `<!doctype html> //show that this code have version html5 
-<html lang="en-US"> //show languages 
-  <head>
-    <meta charset="utf-8" /> // data about data means meta data charset means encoding for webpage and here utf 8 means converts into machine code by 8 bit 
-    <meta name="viewport" content="width=device-width" /> contents are fit within screeen  so we can see laoptop , pohone , tab
-    <title>My test page</title> show on title bar 
-  </head> 
-  <body>// body of the code
-    <img src="images/firefox-icon.png" alt="My test image" />
-  </body>
-  </html>`
+Your "resume" file seems to be a mixture of a markdown and an explanation of the HTML code you've provided. Here's a clearer and more structured version:
 
- 
+---
+
+## HTML
+
+### Definition:
+
+**HyperText**: Using hyperlinks to navigate from one page to another.
+
+**Markup Language**: Uses tags to define and structure elements within the document.
+
+---
+
+## Sample HTML Document Explained:
+
+```html
+<!DOCTYPE html> 
+```
+Declares the document type and version (HTML5).
+
+```html
+<html lang="en-US">
+```
+Specifies the language of the content (English, as used in the United States).
+
+```html
+<head>
+```
+Container for meta-information about the document.
+
+```html
+<meta charset="utf-8" />
+```
+Declares the character encoding for the page. "utf-8" is a universal encoding that represents each character as one or more bytes, allowing representation of characters from many languages.
+
+```html
+<meta name="viewport" content="width=device-width" />
+```
+Ensures the page's dimensions and scaling are correctly set for all devices, making the page responsive (adapts to the screen size of desktops, tablets, phones, etc.).
+
+```html
+<title>My test page</title>
+```
+Sets the title of the page, which appears on the browser's title bar or tab.
+
+```html
+</head>
+<body>
+```
+Begins the body of the HTML document, containing all the visible content.
+
+```html
+<img src="images/firefox-icon.png" alt="My test image" />
+```
+Displays an image with a specified source path. The "alt" attribute provides alternative text for the image, useful for screen readers or if the image fails to load.
+
+```html
+</body>
+</html>
+```
+Ends the body and the HTML document.
+
+---
+
 #  HTML tags commonly 
 
 1. **Document Structure**
