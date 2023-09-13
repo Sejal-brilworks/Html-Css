@@ -1,118 +1,161 @@
-
 <!DOCTYPE html>
 <lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Tags</title>
-<style>
-    p 
-    {
-        background-color: blueviolet;
-    }
 
-    .helight
-    {
-        border-color: blue;
-    }
-    #one
-    {
-        background-color: beige;
-    }
-    .box {
-    width: 200px;
-    height: 100px;
-    background-color: #e0e0e0;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html Tags</title>
+        <style>
+            p {
+                background-color: blueviolet;
+            }
 
-    padding: 50px;
-    border: 50px solid black;
-    margin: 20px;
-}
-#demo
-{
-    font-size: 38px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 200;
-    line-height: normal;
-    text-align: center;
-    text-shadow: #1a0a0a;
-    text-decoration: double;
-    text-overflow: ellipsis;
-    text-decoration-color: aqua;
-}
+            .helight {
+                border-color: blue;
+            }
+
+            #one {
+                background-color: beige;
+            }
+
+            .box {
+                width: 200px;
+                height: 100px;
+                background-color: #e0e0e0;
+
+                padding: 50px;
+                border: 50px solid black;
+                margin: 20px;
+            }
+
+            #demo {
+                font-size: 38px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 200;
+                line-height: normal;
+                text-align: center;
+                text-shadow: #1a0a0a;
+                text-decoration: double;
+                text-overflow: ellipsis;
+                text-decoration-color: aqua;
+                opacity: 0.3;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="radio"],
+            input[type="password"],
+            input[type="date"],
+            input[type="datetime"],
+            input[type="button"],
+            input[type="number"] {
+
+                border: 2px solid #000;
+                margin: 0 0 1em 0;
+                padding: 10px;
+                width: 100%;
+            }
+            img
+            {
+                position: absolute;
+                left: auto;
+                right: auto;
+                z-index: -1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            <center>Html-Css</center>
+        </h1>
+        <label>Box-Model</label>
+        <div class="box">This is my content</div>
 
 
-</style>
-</head>
-<label>Box-Model</label>
-<div class="box">This is my content</div>
+        <p style="background-color: bisque;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae libero
+            perferendis accusantium earum tenetur assumenda iste. Fugiat aliquid odit distinctio consequatur molestias?
+            Soluta a fugit consequuntur doloribus deleniti distinctio blanditiis?</p>
+        <br>
+        <span>sejal</span>
+        <br>
+        <a href="https://www.google.co.in/">google</a>
+        <br>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur perspiciatis molestiae praesentium
+            porro officia iste, soluta repudiandae reiciendis ipsam distinctio ullam iusto incidunt provident, adipisci
+            tempore, illo nisi. Quod, officia.
+        </div>
+        <br> <br>
+        <section id="one">
+            <p>sejal</p>
+            <p>Yadav</p>
+        </section>
+        <br> <br>
+        <fieldset>
+            <legend>Tags</legend>
 
+            <label>Button</label>
+            <input class="helight" type="button" name="btn" value="click">
+            <label>Color</label>
+            <input type="color" class="helight" name="btn" value="click">
+            <label>File</label>
+            <input type="file" class="helight" name="btn" value="click">
+            <label>text</label>
+            <input type="text" class="helight" name="btn" value="click">
+            <label>time</label>
+            <input type="time" class="helight" name="btn" value="click">
+            <label>Datetime</label>
+            <input type="datetime" class="helight" name="btn" value="click">
+            <label>password</label>
+            <input type="password" class="helight" name="btn" value="click">
+            <label>number</label>
+            <input type="number" class="helight" name="btn" value="click">
+            <label>radio</label>
+            <input type="radio" name="btn" value="click">
+            <label>checkbox</label>
+            <input type="checkbox" name="btn" value="click">
+        </fieldset>
+        <br> <br>
+        <label>DropDown - color</label>
+        <select id="color" name="color">
+            <option value="red">red</option>
+            <option value="white">white</option>
+        </select>
+        <br> <br> <br>
 
-    <p style="background-color: bisque;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae libero perferendis accusantium earum tenetur assumenda iste. Fugiat aliquid odit distinctio consequatur molestias? Soluta a fugit consequuntur doloribus deleniti distinctio blanditiis?</p>
-    <br>
-    <span>sejal</span>
-    <br>
-    <a href="https://www.google.co.in/">google</a>
-    <br>
-    <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur perspiciatis molestiae praesentium porro officia iste, soluta repudiandae reiciendis ipsam distinctio ullam iusto incidunt provident, adipisci tempore, illo nisi. Quod, officia.
-    </div>
-    <br>   <br>
-    <section id="one">
-        <p>sejal</p>
-        <p>Yadav</p>
-    </section>
-    <br>   <br>
-    <label>Button</label>
-    <input  class="helight" type="button" name="btn"  value="click">
-    <label>Color</label>
-    <input type="color" class="helight" name="btn"  value="click">
-    <label>File</label>
-     <input type="file"  class="helight" name="btn"  value="click">
-     <label>text</label>
-     <input type="text" class="helight" name="btn"  value="click">
-     <label>time</label>
-     <input type="time"  class="helight" name="btn"  value="click">
-     <label>Datetime</label>
-     <input type="datetime" class="helight"  name="btn"  value="click">
-     <label>password</label>
-     <input type="password"  class="helight" name="btn"  value="click">
-     <label>number</label>
-     <input type="number"  class="helight" name="btn"  value="click">
-     <label>radio</label>
-     <input type="radio" name="btn"  value="click">
-     <label>checkbox</label>
-     <input type="checkbox" name="btn"  value="click">
-     <br>
-     <label>DropDown - color</label>
-     <select id="color" name="color">
-    <option value="red">red</option>    
-    <option value="white">white</option>    
-    </select>
-    <br>
-    <lable>Radio Group - color</lable>
-    <input type="radio" name="color" value="red" id="red">
-    <input type="radio" name="color" value="white" id="white">
-    <input type="radio" name="color" value="black" id="black">
-    <input type="radio" name="color" value="yellow" id="yellow">
-<br><br><br>
-    <table border="1">
-        <tr>
-            <th>sunday</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-          
-        </tr>
-        <tr>
-            <td rowspan="2">Html/css</td> <!-- This cell will span 2 rows -->
-            <td colspan="2">Git</td> <!-- This cell will span 2 columns -->
-        </tr>
-        <tr>
-            <!-- The Html/css cell from the above row is still spanning this row -->
-            <td>JS</td>
-            <td>Python</td>
-        </tr>
-    </table>
-<span id="demo">SEJAL</span>
-</body>
-</html>
+        <table border="1">
+            <tr>
+                <th>sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+
+            </tr>
+            <tr>
+                <td rowspan="2">Html/css</td> <!-- This cell will span 2 rows -->
+                <td colspan="2">Git</td> <!-- This cell will span 2 columns -->
+            </tr>
+            <tr>
+                <!-- The Html/css cell from the above row is still spanning this row -->
+                <td>JS</td>
+                <td>Python</td>
+            </tr>
+        </table>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+        <br>
+        <h2>&#128512;</h2>
+        <img src="img_tree.png">
+        <span id="demo">SEJAL</span>
+        </div>
+    </body>
+
+    </html>
