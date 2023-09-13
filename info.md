@@ -208,4 +208,7 @@ In this example, depending on the browser and styles applied, the second cell mi
 </table>
 ```
 
+- **`name`**: Used to identify form data for submission; can be shared by multiple elements (e.g., radio buttons).
+- **`value`**: The actual data value of an input or option that gets sent upon form submission.
+- **`id`**: A unique identifier for an element, primarily used for targeting with CSS or JavaScript.
 
