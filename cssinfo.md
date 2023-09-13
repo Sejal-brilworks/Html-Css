@@ -57,6 +57,7 @@ CSS : Cascading style sheet it provides styling to content
    - **Border:** The border surrounding the padding (if any) and content.
    - **Margin:** Space around the outside of the border.
 
-
+    
+![image](https://github.com/Sejal-brilworks/Html-Css/assets/144772574/8bb31f0b-3d71-4392-9f1d-b242d1200a6f)
 
 
