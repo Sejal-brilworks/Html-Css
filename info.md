@@ -1,5 +1,5 @@
-# HTML    
-         hyperText - using hyperlink to move to the next page 
+    
+html:    hyperText - using hyperlink to move to the next page 
          Markup Language - it use tages to define elenmnts 
 
 # HTML Docs
